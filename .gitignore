@@ -9,3 +9,4 @@ echo "raw_data/*.csv" >> .gitignore
 git add .gitignore
 git commit --amend --no-editcd
 git push origin feature/bronze-layer --forceraw_data/*.csv
+raw_data/
