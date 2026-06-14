@@ -1,7 +1,6 @@
 {{ config(materialized='view') }}
-
 SELECT
-    id AS listing_id,
+    listing_id,
     listing_url,
     name AS listing_name,
     room_type,
