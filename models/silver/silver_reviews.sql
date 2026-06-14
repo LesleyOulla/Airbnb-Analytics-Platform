@@ -1,5 +1,4 @@
 {{ config(materialized='table') }}
-
 SELECT
     listing_id,
     date AS review_date,
