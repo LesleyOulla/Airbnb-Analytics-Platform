@@ -1,12 +1,21 @@
+# DuckDB
+*.duckdb
+*.duckdb.wal
+*.csv
 
+# Données brutes
+raw_data/
+
+# dbt
 target/
 dbt_packages/
 logs/
 
+# Python
+__pycache__/
+*.pyc
+.env
 
-git rm --cached raw_data/hosts.csv raw_data/listings.csv raw_data/reviews.csv
-echo "raw_data/*.csv" >> .gitignore
-git add .gitignore
-git commit --amend --no-editcd
-git push origin feature/bronze-layer --forceraw_data/*.csv
-raw_data/
+
+# OS
+.DS_Store
